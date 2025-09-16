@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shobana Christy's Portfolio Page</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <h2>
+            Shobana learns tech - From homemaker to developer
+        </h2>
+        <nav>
+            <ul>
+                <li><a href="#aboutme">About me</a></li>
+                <li><a href="#skillset">Skill set</a></li>
+                <li><a href="#contactme">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="aboutme">
+        <h3>About Me</h3>
+        <p>I'm a homemaker on a mission to launch a new career in tech. I joined LaunchCode to build strong programming skills and lay a solid foundation for my future in software development.
+Outside of tech, I'm a passionate artist, I love painting landscapes with acrylics and experimenting with pencil sketching and watercolor techniques. Cooking is another creative outlet for me, and I enjoy exploring cuisines from around the world.</p>
+    </section>
+    <section id="skillset">
+        <h3>My Skill set</h3>
+        <table border="1">
+            <tr>
+                <th>Sl.No</th>
+                <th>Skill/tool</th>
+                <th>Proficiency</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Javascript</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>HTML</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>CSS</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Java</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </section>
+    <section id="contactme">
+        <h3>Contact</h3>
+        <form action="/contact" method="POST">
+            <table>
+                <tr>
+                    <td><label for="contact-name">Sender Name</label></td>
+                    <td><input type="text" id="contact-name" name="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="address-line1">Sender Address line1</label></td>
+                    <td><input type="text" id="address-line1" name="address-line1"></td>
+                </tr>
+                <tr>
+                    <td><label for="address-line2">Sender Address line2</label></td>
+                    <td><input type="text" id="address-line2" name="address-line2"></td>
+                </tr>
+                <tr>
+                    <td><label for="address-city">City</label></td>
+                    <td><input type="text" id="address-city" name="address-city"></td>
+                </tr>
+                <tr>
+                    <td><label for="address-state">State</label></td>
+                    <td><input type="text" id="address-state" name="address-state"></td>
+                </tr>
+                <tr>
+                    <td><label for="address-zipcode">Zip code</label></td>
+                    <td><input type="text" id="address-zipcode" name="address-zipcode"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="phone-number">Phone number</label></td>
+                    <td><input type="text" id="phone-number" name="phone-number"></td>
+                </tr>
+                <tr>
+                    <td><label for="message">Message</label></td>
+                    <td>
+                        <textarea cols="21" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                 <td><button type="submit">Submit</button></td>
+                </tr>
+            </table>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 Shobana Christy</p>
+    </footer>
+</body>
+
+</html>
